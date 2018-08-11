@@ -66,11 +66,10 @@
     class KitMetalRack_EB4E : Kit
     {
         recipe[] = {{"PartPlankPack",2},{"ItemCorrugatedLg",1}};
-		model = "\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Metal_rack_F.jpg";
+		model = "\A3\Structures_F\Furniture\Metal_rack_F.p3d";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.803749,1,0.448515};
+        previewScale = 0.17;
         previewVector = 0;
 		descriptionShort = "Metal Rack (4 Shelves)";
 		descriptionFull = "Storage Space";
@@ -78,11 +77,10 @@
 	class KitMetalRackTall_EB4E : Kit
     {
         recipe[] = {{"PartPlankPack",2},{"ItemCorrugatedLg",2}};
-		model = "\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Metal_rack_Tall_F.jpg";
+		model = "\A3\Structures_F\Furniture\Metal_rack_Tall_F.p3d";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.803749,1,0.448515};
+        previewScale = 0.17;
         previewVector = 0;
 		descriptionShort = "Metal Rack (5 Shelves)";
 		descriptionFull = "Storage Space";
@@ -90,47 +88,43 @@
 	class KitWoodenRack_EB4E : Kit
     {
         recipe[] = {{"PartPlankPack",2},{"ItemPlywoodPack",1}};
-		model = "\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Rack_F.jpg";
+		model = "\A3\Structures_F\Furniture\Rack_F.p3d";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.803749,1,0.448515};
+        previewScale = 0.17;
         previewVector = 0;
 		descriptionShort = "Wood Shelf";
 		descriptionFull = "Storage Space";
     };
-	class KitToolTrolleyRed_EB4E : Kit
+	class KitToolTrollyRed_EB4E : Kit
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanRed",1},{"ItemCorrugatedLg",1}};
-		model = "\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_ToolTrolley_01_F.jpg";
+		model = "\A3\Structures_F_Heli\Civ\Constructions\ToolTrolley_01_F.p3d";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.803749,1,0.448515};
+        previewScale = 0.17;
         previewVector = 0;
-		descriptionShort = "Tool Cart on Trollys (Red)";
+		descriptionShort = "Tool Cart on Trolley (Red)";
 		descriptionFull = "Storage Space";
     };	
-	class KitToolTrolleyBlue_EB4E : Kit
+	class KitToolTrollyBlue_EB4E : Kit
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanBlu",1},{"ItemCorrugatedLg",1}};
-		model = "\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_ToolTrolley_02_F.jpg";
+		model = "\A3\Structures_F_Heli\Civ\Constructions\ToolTrolley_02_F.p3d";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.803749,1,0.448515};
+        previewScale = 0.17;
         previewVector = 0;
-		descriptionShort = "Tool Cart on Trollys (Blue)";
+		descriptionShort = "Tool Cart on Trolley (Blue)";
 		descriptionFull = "Storage Space";
     };
 	class KitIcebox_EB4E : Kit
     {
         recipe[] = {{"ItemCables",1},{"ItemBattery",1},{"ItemCorrugatedLg",1},{"CircuitParts",1}};
-		model = "\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Icebox_F.jpg";
+		model = "\A3\Structures_F\Furniture\Icebox_F.p3d";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.803749,1,0.448515};
+        previewScale = 0.17;
         previewVector = 0;
 		descriptionShort = "Icebox";
 		descriptionFull = "Storage Space";
@@ -138,11 +132,10 @@
 	class KitWoodenShelves_EB4E : Kit
     {
         recipe[] = {{"PartPlankPack",2}};
-		model = "\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_ShelvesWooden_F.jpg";
+		model = "\A3\Structures_F_EPB\Furniture\ShelvesWooden_F.p3d";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.803749,1,0.448515};
+        previewScale = 0.17;
         previewVector = 0;
 		descriptionShort = "Shelves (Wooden)";
 		descriptionFull = "Storage Space";
@@ -150,11 +143,10 @@
 	class KitWoodenShelvesBlue_EB4E : Kit
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanBlu",1}};
-		model = "\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_ShelvesWooden_F.jpg";
+		model = "\A3\Structures_F\Furniture\ShelvesWooden_blue_F.p3d";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.803749,1,0.448515};
+        previewScale = 0.17;
         previewVector = 0;
 		descriptionShort = "Shelves (Wooden, Blue)";
 		descriptionFull = "Storage Space";
@@ -163,10 +155,9 @@
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanBlu",1},{"ItemCorrugatedLg",4}};
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_blue_F.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_blue_F.jpg";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.801378,1,0.464834};
+        previewScale = 0.055;
         previewVector = 0;
 		descriptionShort = "Storage Container (Blue)";
 		descriptionFull = "Storage Space";
@@ -175,10 +166,9 @@
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanTeal",1},{"ItemCorrugatedLg",4}};
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_cyan_F.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_cyan_F.jpg";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.801378,1,0.464834};
+        previewScale = 0.055;
         previewVector = 0;
 		descriptionShort = "Storage Container (Cyan)";
 		descriptionFull = "Storage Space";
@@ -187,10 +177,9 @@
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanGrn",1},{"ItemCorrugatedLg",4}};
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_military_green_F.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_military_green_F.jpg";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.801378,1,0.464834};
+        previewScale = 0.055;
         previewVector = 0;
 		descriptionShort = "Storage Container (Military Green)";
 		descriptionFull = "Storage Space";
@@ -199,10 +188,9 @@
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanOra",1},{"ItemCorrugatedLg",4}};
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_orange_F.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_orange_F.jpg";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.801378,1,0.464834};
+        previewScale = 0.055;
         previewVector = 0;
 		descriptionShort = "Storage Container (Orange)";
 		descriptionFull = "Storage Space";
@@ -211,10 +199,9 @@
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanRed",1},{"ItemCorrugatedLg",4}};
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_red_F.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_red_F.jpg";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.801378,1,0.464834};
+        previewScale = 0.055;
         previewVector = 0;
 		descriptionShort = "Storage Container (Red)";
 		descriptionFull = "Storage Space";
@@ -223,10 +210,9 @@
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanClear",1},{"ItemCorrugatedLg",4}};
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_white_F.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_white_F.jpg";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.801378,1,0.464834};
+        previewScale = 0.055;
         previewVector = 0;
 		descriptionShort = "Storage Container (White)";
 		descriptionFull = "Storage Space";
@@ -235,10 +221,9 @@
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanYel",1},{"ItemCorrugatedLg",4}};
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_yellow_F.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_yellow_F.jpg";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.801378,1,0.464834};
+        previewScale = 0.055;
         previewVector = 0;
 		descriptionShort = "Storage Container (Yellow)";
 		descriptionFull = "Storage Space";
@@ -247,10 +232,9 @@
     {
         recipe[] = {{"PartPlankPack",2},{"PaintCanOra",1},{"PaintCanRed",1},{"ItemCorrugatedLg",4}};
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_brick_red_F.p3d";
-		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_yellow_F.jpg";
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
-        previewPosition[] = {0.797675,1,0.398882};
-        previewScale = 0.07;
+        previewPosition[] = {0.801378,1,0.464834};
+        previewScale = 0.055;
         previewVector = 0;
 		descriptionShort = "Storage Container (Yellow)";
 		descriptionFull = "Storage Space";
