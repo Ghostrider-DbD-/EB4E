@@ -8,5 +8,5 @@ Steam link: https://steamuserimages-a.akamaihd.net/ugc/931567646646736872/A25459
 Website: www.Ghostridergaming.net
 
 Credits: Grahame for assistance regarding coding, testing and troubleshooting.
-         AWOL and other members of the A3 Epoch team for developming an increadible and adaptable mod.
+         AWOL and other members of the A3 Epoch team for developing an incredible and adaptable mod.
          
