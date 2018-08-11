@@ -46,43 +46,12 @@ class CfgItemInteractions
     {
         interactAction = 0;
     };
-
-	class ItemMobilePhone_old : Default
-    {
-        interactAction = 18; 
-        interactText = "CALL BANKER";
-    };
-	class ItemMobilePhone_smart : Default
-    {
-        interactAction = 18; 
-        interactText = "CALL BANKER";
-    };
-	class ItemPortableLongRangeRadio : Default
-    {
-        interactAction = 18; 
-        interactText = "CALL BANKER";
-    };
-	class ItemSatellitePhone : Default
-    {
-        interactAction = 18; 
-        interactText = "CALL BANKER";
-    };
-	class ItemSurvivalRadio : Default
-    {
-        interactAction = 18; 
-        interactText = "CALL BANKER";
-    };
     class Food_base : Default
     {
         interactAction = 1;
         interactText = "EAT";
         interactAttributes[] = {{"Hunger",600}};
     };
-    class Food_TinCan_Tool_base : Food_base
-    {
-        interactAction = 19;
-        interactReturnOnUse = "ItemEmptyTin";
-    };	
     class Food_TinCan_base : Food_base
     {
         interactReturnOnUse = "ItemEmptyTin";
@@ -129,23 +98,23 @@ class CfgItemInteractions
     {
         interactAttributes[] = {{"Hunger",1000},{"Toxicity",7,1},{"Radiation",2,1}};
     };
-    class meatballs_epoch : Food_TinCan_Tool_base
+    class meatballs_epoch : Food_TinCan_base
     {
         interactAttributes[] = {{"Hunger",1200},{"Radiation",2,1}};
     };
-    class scam_epoch : Food_TinCan_Tool_base
+    class scam_epoch : Food_TinCan_base
     {
         interactAttributes[] = {{"Hunger",1000},{"Radiation",2,1}};
     };
-    class sweetcorn_epoch : Food_TinCan_Tool_base
+    class sweetcorn_epoch : Food_TinCan_base
     {
         interactAttributes[] = {{"Hunger",600},{"Radiation",2,1}};
     };
-    class FoodBioMeat : Food_TinCan_Tool_base
+    class FoodBioMeat : Food_TinCan_base
     {
         interactAttributes[] = {{"Hunger",1000},{"Toxicity",7},{"Radiation",2,1}};
     };
-    class TacticalBacon : Food_TinCan_Tool_base
+    class TacticalBacon : Food_TinCan_base
     {
         interactAttributes[] = {{"Hunger",500},{"Radiation",2,1}};
     };
@@ -1108,6 +1077,7 @@ class CfgItemInteractions
     {
         buildClass = "PlyThirdWall_EPOCH";
     };
-	#include "EB4E_ItemInteractions.hpp"	
+	#include "EB4E_ItemInteractions.hpp"
+
 };
 /*[[[end]]]*/
