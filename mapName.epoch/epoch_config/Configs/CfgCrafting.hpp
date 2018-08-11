@@ -148,7 +148,7 @@ class CfgCrafting
     };
     class CircuitParts : Part
     {
-        usedIn[] = {"EnergyPack","EnergyPackLg","KitPlotPole","ItemBattery","KitSolarGen","KitSolarCharger","KitSolarChargerXL","KitVehicleUpgradeI_200_EPOCH","KitVehicleUpgradeIV_200_EPOCH","BarrelBomb_EPOCH_Remote_Mag","BarrelBomb2_EPOCH_Remote_Mag","KitPortableLight_Single","KitPortableLight_Double","BaseCam","BaseCamTerminal","KitIcebox"};
+        usedIn[] = {"EnergyPack","EnergyPackLg","KitPlotPole","ItemBattery","KitSolarGen","KitSolarCharger","KitSolarChargerXL","KitVehicleUpgradeI_200_EPOCH","KitVehicleUpgradeIV_200_EPOCH","BarrelBomb_EPOCH_Remote_Mag","BarrelBomb2_EPOCH_Remote_Mag","KitPortableLight_Single","KitPortableLight_Double","BaseCam","BaseCamTerminal","KitIcebox_EB4E"};
         previewPosition[] = {0.791044,1,0.256956};
         previewScale = 2;
         previewVector = 2.3;
@@ -833,7 +833,7 @@ class CfgCrafting
     };
     class ItemCorrugatedLg : Item
     {
-        usedIn[] = {"KitPlotPole","KitTankTrap","KitHesco3","KitSolarGen","KitSolarCharger","KitSolarChargerXL","ItemRotor","EngineBlock","KitMetalFloor","KitMetalHalfFloor","KitMetalQuarterFloor","KitMetalTower","KitFieldToilet","KitSink","KitPortableLight_Single","KitPortableLight_Double","KitBarbedWire","KitMetalRack_EB4E","KitMetalRackTall_EB4E","KitToolTrollyRed_EB4E","KitToolTrollyBlue_EB4E","KitIcebox","KitCargo10_yellow_EB4E","KitCargo10_white_EB4E","KitCargo10_red_EB4E","KitCargo10_orange_EB4E","KitCargo10_military_green_EB4E","KitCargo10_cyan_EB4E","KitCargo10_brick_red_EB4E","KitCargo10_blue_EB4E"};
+        usedIn[] = {"KitPlotPole","KitTankTrap","KitHesco3","KitSolarGen","KitSolarCharger","KitSolarChargerXL","ItemRotor","EngineBlock","KitMetalFloor","KitMetalHalfFloor","KitMetalQuarterFloor","KitMetalTower","KitFieldToilet","KitSink","KitPortableLight_Single","KitPortableLight_Double","KitBarbedWire","KitMetalRack_EB4E","KitMetalRackTall_EB4E","KitToolTrollyRed_EB4E","KitToolTrollyBlue_EB4E","KitIcebox_EB4E","KitCargo10_yellow_EB4E","KitCargo10_white_EB4E","KitCargo10_red_EB4E","KitCargo10_orange_EB4E","KitCargo10_military_green_EB4E","KitCargo10_cyan_EB4E","KitCargo10_brick_red_EB4E","KitCargo10_blue_EB4E"};
         recipe[] = {{"ItemCorrugated",3}};
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
         previewPosition[] = {0.797491,1,0.32899};
@@ -1169,7 +1169,7 @@ class CfgCrafting
 	};
     class ItemCables : Item
     {
-        usedIn[] = {"KitSolarGen","KitSolarCharger","KitSolarChargerXL","KitPlotPole","ItemCopperBar","KitVehicleUpgradeI_200_EPOCH","BaseCam","BaseCamTerminal","KitIcebox"};
+        usedIn[] = {"KitSolarGen","KitSolarCharger","KitSolarChargerXL","KitPlotPole","ItemCopperBar","KitVehicleUpgradeI_200_EPOCH","BaseCam","BaseCamTerminal","KitIcebox_EB4E"};
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
         recipe[] = {{"ItemCopperBar",1}};
         previewPosition[] = {0.802374,1,0.26};
@@ -1263,7 +1263,7 @@ class CfgCrafting
     };
     class ItemBattery : Item
     {
-        usedIn[] = {"KitSolarGen","KitSolarCharger","KitSolarChargerXL","KitPlotPole","BarrelBomb_EPOCH_Remote_Mag","BarrelBomb2_EPOCH_Remote_Mag","KitIcebox"};
+        usedIn[] = {"KitSolarGen","KitSolarCharger","KitSolarChargerXL","KitPlotPole","BarrelBomb_EPOCH_Remote_Mag","BarrelBomb2_EPOCH_Remote_Mag","KitIcebox_EB4E"};
         nearby[] = {{"Workbench","","workbench",{1,{"WorkBench_EPOCH"}},3,1,0,1}};
         recipe[] = {{"EnergyPackLg",3},{"CircuitParts",1}};
         previewPosition[] = {0.802374,1,0.276733};
