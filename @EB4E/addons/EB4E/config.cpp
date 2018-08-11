@@ -1,3 +1,4 @@
+#include "BIS_AddonInfo.hpp"
 /* Declaration as Addon-Content.*/
 class CfgPatches 		{
 	/* "Hey ArmA3is is an addon and it's named "EB4E"*/
@@ -6,7 +7,9 @@ class CfgPatches 		{
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {
+			"A3_epoch_config"
+		};
         author = "Ghostrider";
 		authorUrl = "http://www.ghostridergaming.net";		
 	};
@@ -144,7 +147,7 @@ class CfgVehicles
     {
         author = "Ghostrider";
         scope = 2;
-		model="\A3\EditorPreviews_F\Data\CfgVehicles\Land_Metal_rack_F.jpg";
+		model="\A3\Structures_F\Furniture\Metal_rack_F.p3d";
         displayName = "Small Metal Rack";
 		descriptionShort = "Small Metal Rack";		
     };
@@ -152,7 +155,7 @@ class CfgVehicles
     {
         author = "Ghostrider";
         scope = 2;
-		model="\A3\EditorPreviews_F\Data\CfgVehicles\Land_Metal_rack_F.jpg";
+		model="\A3\Structures_F\Furniture\Metal_rack_F.p3d";
         displayName = "Small Metal Rack";
 		descriptionShort = "Small Metal Rack";		
     };
@@ -170,7 +173,7 @@ class CfgVehicles
 			init = "''";
 		};
         scope = 2;
-		model="\A3\EditorPreviews_F\Data\CfgVehicles\Land_Metal_rack_F.jpg";
+		model="\A3\Structures_F\Furniture\Metal_rack_F.p3d";
         displayName = "Small Metal Rack";
 		descriptionShort = "Small Metal Rack";		
 		vehicleClass = "Epoch_objects";
@@ -228,7 +231,7 @@ class CfgVehicles
         scope = 2;
 		model="\A3\Structures_F_Heli\Civ\Constructions\ToolTrolley_01_F.p3d";
         displayName = "Red Tool Trolly";
-		descriptionShort = "Red Tool Trolly"		
+		descriptionShort = "Red Tool Trolly";		
     };
     class ToolTrollyRed_EB4E : Constructions_static_F
     {
@@ -246,7 +249,7 @@ class CfgVehicles
         scope = 2;
 		model="\A3\Structures_F_Heli\Civ\Constructions\ToolTrolley_01_F.p3d";
         displayName = "Red Tool Trolly";
-		descriptionShort = "Red Tool Trolly"		
+		descriptionShort = "Red Tool Trolly";		
 		vehicleClass = "Epoch_objects";
 		maximumLoad = 2500;		
 		destrType = "DestructDefault";
@@ -256,7 +259,7 @@ class CfgVehicles
         author = "Ghostrider";
         scope = 2;
 		displayName = "Icebox";
-		descriptionShort = "Icebox"		
+		descriptionShort = "Icebox";		
 		model = "\A3\Structures_F\Furniture\Icebox_F.p3d";
     };
     class Icebox_Ghost_EB4E : Const_Ghost_EPOCH
@@ -264,7 +267,7 @@ class CfgVehicles
         author = "Ghostrider";
         scope = 2;
 		displayName = "Icebox";
-		descriptionShort = "Icebox"			
+		descriptionShort = "Icebox";			
 		model = "\A3\Structures_F\Furniture\Icebox_F.p3d";
     };
     class Icebox_EB4E : Constructions_static_F
@@ -282,7 +285,7 @@ class CfgVehicles
 		};
         scope = 2;
 		displayName = "Icebox";
-		descriptionShort = "Icebox"			
+		descriptionShort = "Icebox";			
 		model = "\A3\Structures_F\Furniture\Icebox_F.p3d";
 		vehicleClass = "Epoch_objects";
 		maximumLoad = 3500;		
@@ -294,7 +297,7 @@ class CfgVehicles
         author = "Ghostrider";
         scope = 2;
 		displayName = "Blue Wood Shelves";
-		descriptionShort = "Blue Wood Shelves"			
+		descriptionShort = "Blue Wood Shelves";			
 		model = "\A3\Structures_F\Furniture\ShelvesWooden_blue_F.p3d";
     };
     class WoodenShelvesBlue_Ghost_EB4E : Const_Ghost_EPOCH
@@ -302,7 +305,7 @@ class CfgVehicles
         author = "Ghostrider";
         scope = 2;
 		displayName = "Blue Wood Shelves";
-		descriptionShort = "Blue Wood Shelves"
+		descriptionShort = "Blue Wood Shelves";
 		model = "\A3\Structures_F\Furniture\ShelvesWooden_blue_F.p3d";
     };
     class WoodenShelvesBlue_EB4E : Constructions_static_F
@@ -320,7 +323,7 @@ class CfgVehicles
 		};
         scope = 2;
 		displayName = "Blue Wood Shelves";
-		descriptionShort = "Blue Wood Shelves"
+		descriptionShort = "Blue Wood Shelves";
 		model = "\A3\Structures_F\Furniture\ShelvesWooden_blue_F.p3d";
 		vehicleClass = "Epoch_objects";
 		maximumLoad = 2000;		
@@ -332,7 +335,7 @@ class CfgVehicles
         author = "Ghostrider";
         scope = 2;
 		displayName = "Wood Shelves";
-		descriptionShort = "Wood Shelves"
+		descriptionShort = "Wood Shelves";
 		model = "\A3\Structures_F_EPB\Furniture\ShelvesWooden_F.p3d";
     };
     class WoodenShelves_Ghost_EB4E : Const_Ghost_EPOCH
@@ -340,7 +343,7 @@ class CfgVehicles
         author = "Ghostrider";
         scope = 2;
 		displayName = "Wood Shelves";
-		descriptionShort = "Wood Shelves"
+		descriptionShort = "Wood Shelves";
 		model = "\A3\Structures_F_EPB\Furniture\ShelvesWooden_F.p3d";
     };
     class WoodenShelves_EB4E : Constructions_static_F
@@ -358,7 +361,7 @@ class CfgVehicles
 		};
         scope = 2;
 		displayName = "Wood Shelves";
-		descriptionShort = "Wood Shelves"
+		descriptionShort = "Wood Shelves";
 		model = "\A3\Structures_F_EPB\Furniture\ShelvesWooden_F.p3d";
 		vehicleClass = "Epoch_objects";
 		maximumLoad = 2000;		
@@ -472,6 +475,41 @@ class CfgVehicles
 		maximumLoad = 7500;		
 		destrType = "DestructDefault";
 	};	
+    class Cargo10_brick_red_SIM_EB4E : Constructions_modular_F
+    {
+        author = "Ghostrider";
+        scope = 2;
+		displayName = "Cargo Container (Brick Red)";
+		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_brick_red_F.p3d";
+
+    };
+    class Cargo10_brick_red_Ghost_EB4E : Const_Ghost_EPOCH
+    {
+        author = "Ghostrider";
+        scope = 2;
+		displayName = "Cargo Container (Brick Red)";
+		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_brick_red_F.p3d";
+    };
+    class Cargo10_brick_red_EB4E : Constructions_static_F
+    {
+        author = "BI";
+		mapSize = 0.87;
+		class SimpleObject
+		{
+			eden = 1;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.359;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+        scope = 2;
+		displayName = "Cargo Container (Brick Red)";
+		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_brick_red_F.p3d";
+		vehicleClass = "Epoch_objects";
+		maximumLoad = 7500;		
+		destrType = "DestructDefault";
+	};	
     class Cargo10_orange_SIM_EB4E : Constructions_modular_F
     {
         author = "Ghostrider";
@@ -507,7 +545,7 @@ class CfgVehicles
 		maximumLoad = 7500;		
 		destrType = "DestructDefault";
 	};	
-    class Cargo10_green_SIM_EB4E : Constructions_modular_F
+    class Cargo10_military_green_SIM_EB4E : Constructions_modular_F
     {
         author = "Ghostrider";
         scope = 2;
@@ -515,14 +553,14 @@ class CfgVehicles
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_military_green_F.p3d";
 
     };
-    class Cargo10_green_Ghost_EB4E : Const_Ghost_EPOCH
+    class Cargo10_military_green_Ghost_EB4E : Const_Ghost_EPOCH
     {
         author = "Ghostrider";
         scope = 2;
 		displayName = "Cargo Container (Short, Military Green)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_military_green_F.p3d";
     };
-    class Cargo10_green_EB4E : Constructions_static_F
+    class Cargo10_military_green_EB4E : Constructions_static_F
     {
         author = "BI";
 		mapSize = 0.87;
@@ -581,7 +619,7 @@ class CfgVehicles
     {
         author = "Ghostrider";
         scope = 2;
-		displayName =  "Cargo Container (Short, Brick Red)";
+		displayName =  "Cargo Container (Short, Blue)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_blue_F.p3d";
 
     };
@@ -589,7 +627,7 @@ class CfgVehicles
     {
         author = "Ghostrider";
         scope = 2;
-		displayName =  "Cargo Container (Short, Brick Red)";
+		displayName =  "Cargo Container (Short, Blue)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_blue_F.p3d";
     };
     class Cargo10_blue_EB4E : Constructions_static_F
@@ -606,7 +644,7 @@ class CfgVehicles
 			init = "''";
 		};
         scope = 2;
-		displayName =  "Cargo Container (Short, Brick Red)";
+		displayName =  "Cargo Container (Short, Blue)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_blue_F.p3d";
 		vehicleClass = "Epoch_objects";
 		maximumLoad = 7500;		
@@ -803,7 +841,7 @@ class CfgMagazines
 		author = "Ghostrider";
 		model="\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
 		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_brick_red_F.jpg";
-		displayName = = "Cargo Container (Brick Red)";
+		displayName = "Cargo Container (Brick Red)";
 		scope = 2;
 		count = 1;
 		mass = 50;		
@@ -812,11 +850,10 @@ class CfgMagazines
 	{
 		author = "Ghostrider";
 		model="\x\addons\a3_epoch_assets_1\models\supply_crate.p3d";
-		picture = = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_blue_F.jpg";
+		picture = "\A3\EditorPreviews_F\Data\CfgVehicles\Land_Cargo10_blue_F.jpg";
 		displayName = "Cargo Container (Blue)";
 		scope = 2;
 		count = 1;
 		mass = 50;		
 	};		
 };
-
