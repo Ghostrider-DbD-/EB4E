@@ -28,7 +28,6 @@ class CfgObjectInteractions
         aliveState = 0;
         interactAttributes[] = {};
     };
-	#include "EB4E_ObjectInteractions.hpp"
     class Land_MPS_EPOCH : Default {};
     class container_epoch : Default {};
     class PlotPole_EPOCH : Default
@@ -309,6 +308,9 @@ class CfgObjectInteractions
     class EPOCH_RyanZombie_3_S : EPOCH_RyanZombie_1 {};
     class EPOCH_RyanZombie_4_S : EPOCH_RyanZombie_1 {};
     class EPOCH_RyanZombie_5_S : EPOCH_RyanZombie_1 {};
+	
+	#include "EB4E_ObjectInteractions.hpp"
+
 };
 
 /*[[[end]]]*/
