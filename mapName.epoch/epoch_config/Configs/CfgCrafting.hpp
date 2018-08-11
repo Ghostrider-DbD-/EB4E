@@ -1706,7 +1706,7 @@ class CfgCrafting
         previewVector = 0;
     };
 	
-	#include "EB4E_BaseBuilding.hpp"
+	#include "EB4E_Crafting.hpp"
 
 };
 
