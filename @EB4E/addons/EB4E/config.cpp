@@ -121,7 +121,7 @@ class CfgVehicles
         displayName = "Tall Metal Rack (5 shelves)";
 		descriptionShort = "Tall Metal Rack";		
     };
-    class MetalRackTall_EB4E : Constructions_static_F
+    class MetalRackTall_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -159,7 +159,7 @@ class CfgVehicles
         displayName = "Small Metal Rack";
 		descriptionShort = "Small Metal Rack";		
     };
-    class MetalRack_EB4E : Constructions_static_F
+    class MetalRack_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -196,7 +196,7 @@ class CfgVehicles
         displayName = "Tool Cart (Blue)";
 		descriptionShort = "Blue Tool Trolly";		
     };
-    class ToolTrollyBlue_EB4E : Constructions_static_F
+    class ToolTrollyBlue_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -233,7 +233,7 @@ class CfgVehicles
         displayName = "Red Tool Trolly";
 		descriptionShort = "Red Tool Trolly";		
     };
-    class ToolTrollyRed_EB4E : Constructions_static_F
+    class ToolTrollyRed_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -270,7 +270,7 @@ class CfgVehicles
 		descriptionShort = "Icebox";			
 		model = "\A3\Structures_F\Furniture\Icebox_F.p3d";
     };
-    class Icebox_EB4E : Constructions_static_F
+    class Icebox_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -308,7 +308,7 @@ class CfgVehicles
 		descriptionShort = "Blue Wood Shelves";
 		model = "\A3\Structures_F\Furniture\ShelvesWooden_blue_F.p3d";
     };
-    class WoodenShelvesBlue_EB4E : Constructions_static_F
+    class WoodenShelvesBlue_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -346,7 +346,7 @@ class CfgVehicles
 		descriptionShort = "Wood Shelves";
 		model = "\A3\Structures_F_EPB\Furniture\ShelvesWooden_F.p3d";
     };
-    class WoodenShelves_EB4E : Constructions_static_F
+    class WoodenShelves_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -385,7 +385,7 @@ class CfgVehicles
 		displayName = "Cargo Container (Short, Yellow)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_yellow_F.p3d";
     };
-    class Cargo10_yellow_EB4E : Constructions_static_F
+    class Cargo10_yellow_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -420,7 +420,7 @@ class CfgVehicles
 		displayName = "Cargo Container (Short, White)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_white_F.p3d";
     };
-    class Cargo10_white_EB4E : Constructions_static_F
+    class Cargo10_white_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -455,7 +455,7 @@ class CfgVehicles
 		displayName = "Cargo Container (Short, Red)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_red_F.p3d";
     };
-    class Cargo10_red_EB4E : Constructions_static_F
+    class Cargo10_red_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -490,7 +490,7 @@ class CfgVehicles
 		displayName = "Cargo Container (Brick Red)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_brick_red_F.p3d";
     };
-    class Cargo10_brick_red_EB4E : Constructions_static_F
+    class Cargo10_brick_red_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -525,7 +525,7 @@ class CfgVehicles
 		displayName = "Cargo Container (Short, Orange)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_orange_F.p3d";
     };
-    class Cargo10_orange_EB4E : Constructions_static_F
+    class Cargo10_orange_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -560,7 +560,7 @@ class CfgVehicles
 		displayName = "Cargo Container (Short, Military Green)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_military_green_F.p3d";
     };
-    class Cargo10_military_green_EB4E : Constructions_static_F
+    class Cargo10_military_green_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -595,7 +595,7 @@ class CfgVehicles
 		displayName = "Cargo Container (Short, Cyan)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_cyan_F.p3d";
     };
-    class Cargo10_cyan_EB4E : Constructions_static_F
+    class Cargo10_cyan_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -630,7 +630,7 @@ class CfgVehicles
 		displayName =  "Cargo Container (Short, Blue)";
 		model = "\A3\Structures_F_Heli\Ind\Cargo\Cargo10_blue_F.p3d";
     };
-    class Cargo10_blue_EB4E : Constructions_static_F
+    class Cargo10_blue_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
@@ -665,7 +665,7 @@ class CfgVehicles
 		model="\A3\Structures_F_Heli\Civ\Constructions\ToolTrolley_01_F.p3d";
         displayName = "Tool Cart (Red)";
     };
-    class ToolTrollyRed_EB4E : Constructions_static_F
+    class ToolTrollyRed_EB4E : Buildable_Storage
     {
         author = "BI";
 		mapSize = 0.87;
