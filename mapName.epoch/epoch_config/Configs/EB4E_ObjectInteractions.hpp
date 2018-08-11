@@ -26,6 +26,18 @@
     {
         interactMode = 4;
     };
+	class Icebox_EB4E : Default
+    {
+        interactMode = 4;
+    };
+	class WoodenShelvesBlue_EB4E : Default
+    {
+        interactMode = 4;
+    };
+	class WoodenShelves_EB4E : Default
+    {
+        interactMode = 4;
+    };
 	
 	//// 
 	class Cargo10_yellow_EB4E : Default
@@ -40,11 +52,15 @@
     {
         interactMode = 4;
     };
+	class Cargo10_brick_red_EB4E : Default
+    {
+        interactMode = 4;
+    };
 	class Cargo10_orange_EB4E : Default
     {
         interactMode = 4;
     };
-	class Cargo10_green_EB4E : Default
+	class Cargo10_military_green_EB4E : Default
     {
         interactMode = 4;
     };
