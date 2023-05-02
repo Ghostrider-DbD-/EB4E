@@ -1,0 +1,41 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+All credit for this script goes to Ghostrider [GRG] - Visit Ghostriders github at: https://github.com/Ghostrider-DbD-
+Install instructions by Nicho1494.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//GRG EB4E - Extended Base Objects - Epoch //
+	
+//Step 1;
+
+	Download the file "EB4E-master" and extract it to your documents.
+	
+	Unpack your MPMission - epoch.Altis.pbo (Changes dependable on the map you are using)
+
+//Step 2;
+	
+	Merge the contents of the following files with the those in you MPMission file - epoch.Altis\epoch_config\Configs\
+	
+	CfgObjectInteractions.hpp
+	CfgItemInteractions.hpp
+	CfgCrafting.hpp
+	CfgBaseBuilding.hpp
+	
+	Copy the following files to epoch.Altis\epoch_config\Configs\
+	
+	EB4E_BaseBuilding.hpp
+	EB4E_Crafting.hpp
+	EB4E_ItemInteractions.hpp
+	EB4E_ObjectInteractions.hpp
+	
+//Step 3;
+
+	Copy the folder @EB4E and place it in your main directory with @EpochHive.
+	
+	Add to your command line under server mods - @EB4E; so it looks like @EpochHive;@EB4E;
+	
+	Restart your server and ensure no errors are present in your RPT.
+
+Additional scripts are avalible from GhostriderGaming [GRG] - Find the link at the top of this file!
+
+	
+//////////////////////////////////////////////////////////////////////////////////////////////////////
