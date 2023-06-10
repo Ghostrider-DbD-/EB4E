@@ -29,11 +29,18 @@ Install instructions by Nicho1494.
 	
 //Step 3;
 
-	Copy the folder @EB4E and place it in your main directory with @EpochHive.
+	Download the mod from SteamWorkshop:  https://steamcommunity.com/sharedfiles/filedetails/?id=1475332817
+	
+	Copy the @EB4E Mod to your directory containing @EpochHive.
 	
 	Add to your command line under server mods - @EB4E; so it looks like @EpochHive;@EB4E;
 	
 	Restart your server and ensure no errors are present in your RPT.
+	
+	Copy the key for @E4BE to your \keys folder.
+	
+// Step 4.
+	Restart your client with the @E4BBE mod loaded.
 
 Additional scripts are avalible from GhostriderGaming [GRG] - Find the link at the top of this file!
 
